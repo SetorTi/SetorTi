@@ -1,0 +1,8 @@
+.hero {
+    background-image: url('../images/header.jpeg') !important;
+  }
+
+
+:root {
+    --primary-color: #00DFF7 !important; 
+}
