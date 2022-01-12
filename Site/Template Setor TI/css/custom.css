@@ -1,8 +1,30 @@
 .hero {
-    background-image: url('../images/header.jpeg') !important;
+    background-image: url('../images/header.jpg') !important;
   }
 
 
 :root {
     --primary-color: #00DFF7 !important; 
+}
+
+
+/* Definindo os cards do Clientes */
+
+.card
+{
+  background-color: #ffffff !important;
+  margin: 1px !important;
+  
+  transition: all 0.2s !important;
+    cursor: pointer !important;
+  
+}
+
+.card:hover
+{
+  -webkit-transform: scale(0.95) !important;
+  transform: scale(0.95) !important;
+  border-radius: 5px !important;
+
+
 }
