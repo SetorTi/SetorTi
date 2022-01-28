@@ -78,7 +78,7 @@
 </nav>
 
 
-<!-- HERO -->
+<!-- ############################## SEÇÃO HOME ############################-->
 <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
 
     <div class="bg-overlay"></div>
@@ -92,14 +92,11 @@
                 <h6 data-aos="fade-up" data-aos-delay="200"><img src="images/logo3.png" width="90%" alt="Setor TI Logo"></h6>
 
               
-                <!-- Precisa retirar o soluções em informática do Logo" -->
-
                 <h1 class="text-white" data-aos="fade-up" data-aos-delay="500"></h1>
 
                 <a href="#sobre" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="500">Sobre nós</a>
 
                 <a href="#sobre" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="600">confira nossos serviços</a>
-
             </div>
         </div>
 
@@ -122,7 +119,7 @@
                 
             </div>
 
-            <div class="mr-lg-auto mt-3 col-lg-4 col-md-6 col-12">
+            <div class="mr-lg-auto mt-3 col-lg-6 col-md-6 col-12">
                <div class="about-working-hours">
                   <div>
 
@@ -184,7 +181,7 @@
                 </div>
             </div>
 
-            <!-- SERVIÇO 3 -->
+            <!-- SERVIÇO 3 - FIREWALL -->
             <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
                 <div class="team-thumb">
                     <p class="text-center"><img src="images/servicos/firewall.png" class="img-fluid" alt="Trainer" width="50%"></p>
@@ -194,7 +191,7 @@
                         <h3>Firewall</h3>
                         <span class="text-justify">O Firewall é responsável por monitorar o comportamento de links, detectando enquanto informa e bloqueia possíveis tentativas de invasões na sua rede.</span>
                         <br/> 
-                        <a href="#" class="btn bg-color"><i class="fa fa-search" aria-hidden="true"></i> Saiba mais</a>
+                        <a href="#" class="btn bg-color" data-aos="fade-up" data-toggle="modal" data-target="#firewall"><i class="fa fa-search" aria-hidden="true"></i> Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -226,7 +223,7 @@
                             <h3>Suporte Técnico</h3>
                             <span class="text-justify">Nosso suporte técnico é capacitado tecnicamente e com ferramentas de suporte remoto para auxiliar em demandas e problemas do dia a dia.</span>
                             <br/>
-                             <a href="#" class="btn bg-color"><i class="fa fa-search" aria-hidden="true"></i> Saiba mais</a>
+                             <a href="#" class="btn bg-color" data-aos="fade-up" data-toggle="modal" data-target="#suporteTec"><i class="fa fa-search" aria-hidden="true"></i> Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -307,8 +304,8 @@
   <div class="container">
      <div class="row">
 
-        <div class="ml-auto col-lg-5 col-md-6 col-12">
-            <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Contato</h2>
+        <div class="ml-auto col-lg-5 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200" >
+            <h2 class="mb-4 pb-2">Contato</h2>
 
             <p><i class="fa fa-envelope-o mr-1"></i><a href="#"> claudinei@setorti.com</a></p>
             <p><i class="fa fa-phone mr-1"></i> (15) 3259-0195</p>
@@ -326,12 +323,12 @@
             </form>
         </div>
 
-        <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+        <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
             <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Endereço</h2>
 
             <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Av. São Carlos, 720 - Vila Dr. Laurindo, Tatuí - SP, 18271-380</p>
             <div class="google-map" data-aos="fade-up" data-aos-delay="900">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3663.229067270631!2d-47.83927562460631!3d-23.34371424040915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x861cbd14054d0978!2sSetor%20Ti!5e0!3m2!1spt-BR!2sbr!4v1640822287219!5m2!1spt-BR!2sbr" width="1920" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3663.229067270631!2d-47.83927562460631!3d-23.34371424040915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x861cbd14054d0978!2sSetor%20Ti!5e0!3m2!1spt-BR!2sbr!4v1640822287219!5m2!1spt-BR!2sbr" width="1920" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
            
 
@@ -477,6 +474,69 @@
                         </div>
                       </div>        
         </div> 
+
+        <!-- FECHA MODAL GTI-->
+
+
+        <!--############### Modal FIREWALL ######################-->
+<div class="modal fade bd-example-modal-lg" id="firewall" tabindex="-1" role="dialog" aria-labelledby="firewallLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+          <div class="modal-header">
+              <h2 class="modal-title" id="firewallLabel">Firewall</h2>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+          </div> <!-- fecha HEADER-->
+  
+          <div class="modal-body">
+            
+              <p class="text-center">
+                  <img src="images/servicos/firewall.png" class="img-fluid" alt="firewall" width="10%">
+                  </p>
+              <p>É possivel monitorar os acessos dos usuários e bloquear sites indevidos. Por meio de relatórios visualizamos os usuários, sites e serviços que mais consomem seu link de Internet.</p>
+              <p class="text-center"><img src="images/servicos/firewall/firewall.gif" alt="firewall" width="25%"></p>                               
+             
+  
+                             <div class="modal-footer"><button type="button" class="btn bg-color btn-sm" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i> Fechar</button></div>
+                          </div>
+                        </div>        
+          </div> 
+          </div>
+  
+          <!-- FECHA MODAL Firewall-->
+
+
+          <!--############### Modal Suporte ######################-->
+<div class="modal fade bd-example-modal-lg" id="suporteTec" tabindex="-1" role="dialog" aria-labelledby="suporteTecLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+          <div class="modal-header">
+              <h2 class="modal-title" id="suporteTecLabel">Suporte Técnico</h2>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+          </div> <!-- fecha HEADER-->
+  
+          <div class="modal-body">
+            
+              <p class="text-center">
+                  <img src="images/servicos/technical-support.png" class="img-fluid" alt="suporte" width="10%">
+                  </p>
+              <p>Nosso suporte técnico é capacitado tecnicamente e com ferramentas avançadas de suporte remoto para auxiliar em demandas e problemas do dia a dia.</p>
+              <p class="text-center"><img src="images/servicos/suporte/support.gif" alt="firewall" width="25%"></p>                               
+             
+  
+                             <div class="modal-footer"><button type="button" class="btn bg-color btn-sm" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i> Fechar</button></div>
+                          </div>
+                        </div>        
+          </div> 
+        </div>
+  
+          <!-- FECHA MODAL Suporte-->
+          
         
 
         
